@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+body {
+  margin: 0;
+  font-family: 'Cantarell', sans-serif;
+}
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 3;
+}
+#header-img {
+  width: 150px;
+height: auto;;
+}
+/* #nav-bar {
+position: fixed;
+right: 10px;
+} */
+#nav-bar > a{
+  color: white;
+  text-decoration: none;
+}
+.header__container {
+  background-color: #252a2e;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 100%; */
+}
+.main__content{
+    padding-top: 70px;
+}
+.banner_container > img{
+  width: 100%;
+  /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
+}
+
+/* @media (max-width: 250px) {
+  #nav-bar {
+    top: 55px;
+  }
+} */
