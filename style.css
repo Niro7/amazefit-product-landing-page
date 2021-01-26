@@ -24,6 +24,9 @@ form {
   align-items: center;
   justify-content: center;
 }
+button,#submit{
+  cursor: pointer;
+}
 #header-img {
   width: 150px;
   height: auto;
@@ -47,6 +50,9 @@ form {
 #submit{
   background: #fcc802;
   margin-left: 5px;
+}
+#submit:hover{
+  background: #e4b706;
 }
 #email, #submit{
   outline: none;
